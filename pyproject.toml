@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "flask-doc-api"
+version = "0.1.0"
+description = ""
+authors = ["Fredson Chaves <fredsonchaves07@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask-restful = "^0.3.8"
+dynaconf = "^3.1.0"
+wget = "^3.2"
+
+
+[tool.poetry.dev-dependencies]
+python-dotenv = "^0.14.0"
+black = "18.5b0"
+autopep8 = "^1.5.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

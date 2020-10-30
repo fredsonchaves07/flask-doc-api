@@ -1,0 +1,7 @@
+GET http://localhost:5000/doc-api/get_document/curriculo_fredson_chaves.pdf HTTP/1.1
+#http://localhost:5000/doc-api/get_document/curriculo_fredson_chaves.pdf
+Content-Type: application/json
+
+{
+    "name": "Teste"
+}
