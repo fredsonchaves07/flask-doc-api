@@ -6,4 +6,4 @@ def init_app(app):
     api = Api(app, prefix="/doc-api")
 
     api.add_resource(index.Index, "/")
-    api.add_resource(index.Document, "/get_document/<name>")
+    api.add_resource(index.Document, "/<name>")
